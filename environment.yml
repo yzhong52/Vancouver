@@ -1,0 +1,12 @@
+name: vancouver
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - dash=0.34.0
+  - dash-core-components=0.42.0
+  - dash-html-components=0.13.4
+  - plotly=3.4.2
+  - python=3.7.2
+  - babel
+

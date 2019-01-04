@@ -1,0 +1,51 @@
+input.currency {
+    text-align: right;
+    padding-right: 5px;
+}
+input.percentage {
+    padding-right: 5px;
+    text-align: right;
+}
+body {
+    /*
+     * Color picked from here:
+     *
+     * https://material.io/tools/color/#!/?view.left=0&view.right=0&primary.color=E1F5FE
+     *
+     **/
+    background-color: #fafafa;
+    color: #3e2723;
+}
+h1 {
+    text-align: center
+}
+
+p.settings_label {
+    color: #40241a;
+    margin-bottom: 0.2em;
+}
+
+h4.settings_title {
+    margin-right: 1em;
+}
+
+div.input-group {
+    margin-bottom: 0.5em;
+}
+
+th {
+    vertical-align:top;
+}
+
+th {
+  border-style: solid;
+  border-width: 0;
+  border-top-width: 0.1em;
+  border-bottom-width: 0.1em;
+  border-color: #e0e0e0;
+}
+
+h2.golden_subtitle {
+    color: #c79a00;
+    text-align: center;
+}

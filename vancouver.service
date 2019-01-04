@@ -1,0 +1,14 @@
+[Unit]
+Description=Gunicorn instance to serve myproject
+After=network.target
+
+[Service]
+User=ec2-user
+#ExecStart=/usr/bin/echo hello
+WorkingDirectory=/home/ec2-user/vancouver
+Environment="PATH=/home/ec2-user/miniconda3/envs/vancouver/bin/"
+ExecStart=/home/ec2-user/miniconda3/envs/vancouver/bin/gunicorn --workers 3 --bind 0.0.0.0:8080 -m 007 run:server
+
+[Install]
+WantedBy=multi-user.target
+
